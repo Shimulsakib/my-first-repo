@@ -1,0 +1,129 @@
+*{
+	margin:0;
+    padding:0;
+}
+body{
+	background:url(../images/hong-kong-1990268_1920.jpg);
+}
+
+
+#menu{
+	padding:0;
+	width:960px;
+	min-height:38px;
+	background:#4e4e4e;
+	margin:0 auto;
+	list-style-type:none;
+	border-bottom:5px solid #4A2B0D;
+	
+}
+#menu li{
+	float:left;
+	border-right:1px solid #605b5b;
+	border-left:1px solid #2b2a2a;
+	position:relative;
+}
+#menu li a{
+	text-decoration:none;
+	color:#fff;
+	padding:10px 20px;
+	display:block;
+	background:#4e4e4e;
+}
+#menu li a:hover{
+	background:blue;
+}
+#menu li:last-child{
+	border-left:none;
+}
+#menu li:first-child{
+	border-right:none;
+}
+#menu li ul{
+	list-style-type:none;
+	position:absolute;
+	left:-99999px;
+	padding:0;
+}
+#menu li ul li{
+	float:none;
+	border-left:none;
+	border-right:none;
+	border-top:1px solid #605b5b;
+	border-bottom:1px solid #2b2a2a;
+	width:150px;
+}
+#menu li:hover ul{
+	left:0;
+}
+.div3{
+	background:#5D8FA9;
+	width:400px;
+	height:180px;
+}
+
+.shimul{
+	
+	margin:0 auto;
+	padding:0;
+	width:960px;
+	height:600px;
+	background:radial-gradient(red,green);
+}	
+.div2{
+	background:#BAB8C9;
+	width:400px;
+	border:1px solid #605b5b;
+	margin-top:10px;
+}
+
+.div1{
+	background:#BAB8C9;
+	width:400px;
+	border:1px solid #605b5b;
+	margin-top:10px;
+}
+
+.div1,.div2{
+	float:left;
+	margin-left:10px;
+}
+.Permanent, .sakib{
+	background:#D87388;
+	width:100%;
+	padding:5px 0;
+}
+
+
+b{
+	width:150px;
+	Padding: 10px;
+	margin-bottom:5px;
+}
+input{
+	width: 200px;
+	padding: 5px 0;
+	margin-right: -173px;
+}
+.ncta{
+	border-collapse:collapse;
+	border-collapse:blue;
+	margin-left:20px;
+}
+.ncta thead tr th{
+	background:#F2AD1A;
+	padding:5px;
+	font-family:montserrat;
+	color:#fff;
+}
+.ncta tbody tr td{
+	padding:20px;
+}
+.ncta tbody tr:nth-child(odd){
+	background:#C46BB0;
+	color:#fff;
+}
+ncta tbody tr(even){
+	background:#EBDF1D;
+	color:#fff;
+}
